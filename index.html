@@ -29,6 +29,7 @@
                         <li><a href="#reglas">Reglas</a></li>
                         <li><a href="#galeria">Galería</a></li>
                         <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+                        <li><div id="google_translate_element"></div></li>
                     </ul>
                 </nav>
             </div>
@@ -54,5 +55,16 @@
             </div>
         </div>
     </section>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </body>
 </html>

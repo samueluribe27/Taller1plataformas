@@ -126,3 +126,22 @@ body{
     color: #555;
 }
 
+#google_translate_element {
+    display: inline-block;
+}
+
+#google_translate_element .goog-te-gadget-simple {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #DEDEDE;
+    cursor: pointer;
+}
+
+#google_translate_element .goog-te-gadget-simple a {
+    color: #DEDEDE;
+}
+
+#google_translate_element .goog-te-gadget-icon {
+    display: none;
+}
