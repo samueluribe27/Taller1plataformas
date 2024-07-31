@@ -17,7 +17,7 @@ body {
 
 .content {
     min-height: 100px;
-    background-color: #254336;
+    background-color: #021526;
 }
 
 .menu {
@@ -43,13 +43,13 @@ body {
 .menu .navbar ul li a {
     font-size: 22px;
     padding: 20px;
-    color: #DEDEDE;
+    color: #E2E2B6;
     display: block;
     font-weight: bold;
 }
 
 .menu .navbar ul li a:hover {
-    color: #ffffff;
+    color: #E2E2B6;
 }
 
 #menu {
@@ -67,14 +67,14 @@ body {
 
 .inscripcion {
     padding: 60px 0;
-    background-color: #DAD3BE
+    background-color: #021526;
 }
 
 .inscripcion h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 36px;
-    color: #333;
+    color: #E2E2B6;
 }
 
 .form-container {
@@ -85,20 +85,19 @@ body {
     margin: 0 auto;
     max-width: 800px; 
     height: 560px;
-    border: 1px solid #ddd;
 }
 
 .form-container iframe {
     width: 100%;
     height: 100%;
     border: none;
-    overflow-y: auto;
-    background-color: #e9edeb
+    overflow-y: hidden;
+    background-color: #021526;
 }
 
 .sobre-nosotros {
     padding: 60px 0;
-    background-color: #f9f9f9;
+    background-color: #03346E;
 }
 
 .sobre-nosotros-content {
@@ -120,13 +119,13 @@ body {
 .sobre-nosotros h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    color: #333;   
+    color: #E2E2B6;
 }
 
 .sobre-nosotros p {
     font-size: 18px;
     line-height: 1.6;
-    color: #555;
+    color: #E2E2B6;
 }
 
 #google_translate_element {
@@ -137,12 +136,12 @@ body {
     background-color: transparent;
     border: none;
     font-size: 16px;
-    color: #DEDEDE;
+    color: #E2E2B6;
     cursor: pointer;
 }
 
 #google_translate_element .goog-te-gadget-simple a {
-    color: #DEDEDE;
+    color: #E2E2B6;
 }
 
 #google_translate_element .goog-te-gadget-icon {
@@ -150,13 +149,13 @@ body {
 }
 
 .ganadores{
-    background-color: #B7B597;
+    background-color: #021526;
 }
 
 .ganadores h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: white;
+    color: #E2E2B6;
     text-align: center;
 }
 
@@ -165,47 +164,33 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+   
 }
 
 .foto {
-    background-color: white;
-    border-radius: 8px;
+    background-color: #021526;
+    border-radius: 25px;
     overflow: hidden;
-    width: calc(50% - 20px);
     max-width: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    max-height: max-content;
 }
 
 .foto img {
     width: 100%;
-    height: auto;
-}
-
-.detalles {
-    padding: 10px;
-    text-align: left;
-}
-
-.detalles p {
-    margin: 5px 0;
-}
-
-@media (max-width: 768px) {
-    .item {
-        width: 100%;
-    }
+    height: 100%;
 }
 
 .reglas {
     padding: 60px 0;
-    background-color: #DAD3BE;
+    background-color: #021526;
 }
 
 .reglas h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 36px;
-    color: #333;
+    color: #E2E2B6;
 }
 
 .video-container {
@@ -219,4 +204,29 @@ body {
     max-width: 800px;
     border: 1px solid #ddd;
     border-radius: 8px;
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #E2E2B6;
+    text-align: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    max-width: 500  px;
+    position: static;
+    text-align: center;
+    padding: auto;
+}
+.logos-marcas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   
+}
+.marcas-aliadas{
+    background-color: #03346E;
+    border: 50px;
 }
