@@ -224,10 +224,11 @@ body {
 .Galeria .container-galeria .image-container .image {
     height: 250px;
     width: 350px;
-    border: 10px solid #fff;
+    border: 7px solid #cfcfcf;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .Galeria .container-galeria .image-container .image img {
@@ -279,3 +280,122 @@ body {
         width: 95%;
     }
 }
+
+.reglas-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: #333232;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .reglas-section .regla {
+    flex: 1 1 45%;
+    max-width: 45%;
+    margin: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  .reglas-section .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #39A0ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 auto 10px;
+  }
+  
+  .reglas-section h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .reglas-section p {
+    font-size: 14px;
+  }
+  
+  /* Responsivo para pantallas pequeñas */
+  @media (max-width: 600px) {
+    .reglas-section .regla {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  .titulo-regla{
+    padding: 30px 0;
+  }
+  
+.titulo-regla h2{
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333232;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #39A0ED;
+    color: #FEF9FF;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-item {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FEF9FF;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer-logos img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.footer-contact a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-contact img {
+    width: 24px;
+    height: auto;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-location img {
+    width: 200px; 
+    height: auto;
+}
+
+
