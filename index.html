@@ -46,56 +46,55 @@
         </div>
     </section>
 
-    <section id="reglas" class="reglas">
+    <section id="VideoPromocional" class="VideoPromocional">
         <div class="container">
-            <h2>REGLAS</h2>
+            <h2>CONCURSO DE FOTOGRAFIA-2024</h2>
             <div class="video-container">
-                <iframe width="640" height="480" src="https://www.youtube.com/watch?v=RWHyFTS0dH4&ab_channel=GuillermoQuinteroReyes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YAevAQp-Xsc?si=34EpsRAusC7Uam0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <section id="ganadores" class="ganadores">
-        <div class="container">
-            <h2>GANADORES CONCURSOS ANTERIORES</h2>
-            <div class="galeria">
-                <section class="foto">
-                    <img src="images/imagen1.jpeg" alt="Ganador 1">
-                </section>
-                <section class="foto">
-                    <img src="images/imagen2.jpeg" alt="Ganador 2">
-                </section>
-                <section class="foto">
-                    <img src="images/imagen3.jpeg" alt="Ganador 3">
-                </section>
-                <section class="foto">
-                    <img src="images/imagen4.jpeg" alt="Ganador 4">
-                </section>
-                <section class="foto">
-                    <img src="images/imagen5.jpeg" alt="Ganador 5">
-                </section>
-                <section class="foto">
-                    <img src="images/imagen6.jpeg" alt="Ganador 6">
-                </section>
+    <section id="Galeria" class="Galeria">
+        <div class="container-galeria">
+            <h2>GALERÍA</h2>
+            <div class="image-container">
+                <div class="image"><img src="images/imagen1.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen2.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen3.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen4.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen5.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen6.jpeg" alt=""></div>
+            </div>
+            <div class="popup-images">
+                <span>&times;</span>
+                <img src="images/imagen1.jpeg" alt="">
             </div>
         </div>
     </section>
+    
+    <script>
+        const images = document.querySelectorAll('.image-container .image img');
+        const popup = document.querySelector('.popup-images');
+        const popupImg = document.querySelector('.popup-images img');
+        const closeBtn = document.querySelector('.popup-images span');
+    
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                popupImg.src = image.src;
+                popup.style.display = 'block';
+            });
+        });
+        closeBtn.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+    </script>
 
-    <section id="marcas-aliadas" class="marcas-aliadas">
-        <div class="container">
-            <h2>MARCAS ALIADAS</h2>
-            <div class="logos-marcas">
-                <section class="logo">
-                    <img src="images/Canon.png" alt="Logo 1">
-                </section>
-                <section class="logo">
-                    <img src="images/sony.png" alt="Logo 2">
-                </section>
-                <section class="logo">
-                    <img src="images/kodak.png" alt="Logo 3">
-                </section>
-            </div>
-
+   
+    <section id="frase" class="frase">
+        <div class="Frase-container">
+            <h2>"Las mejores imágenes son aquellas que retienen su fuerza e impacto a través de los años, a pesar del número de veces que son vistas"-Anne Geddes</h2>
+            <h3></h3>
         </div>
     </section>
 
