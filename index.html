@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        </style>
-        
-        
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+    </style>
     <title>Photography</title>
 </head>
 <body>
@@ -16,7 +14,7 @@
         <div class="content">
             <div class="menu container">
                 <a href="index.html">
-                    <img src="images/photography-high-resolution-logo-transparent.png" class="logo" alt="">
+                    <img src="images/photography-high-resolution-logo-black-transparent.png" class="logo" alt="">
                 </a>
                 <input type="checkbox" id="menu" />
                 <label for="menu">
@@ -25,37 +23,133 @@
                 <nav class="navbar">
                     <ul>
                         <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
                         <li><a href="#inscripcion">Inscripción</a></li>
                         <li><a href="#reglas">Reglas</a></li>
                         <li><a href="#galeria">Galería</a></li>
-                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
                         <li><div id="google_translate_element"></div></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <section id="inscripcion" class="inscripcion">
-        <div class="inscripcion container">
-            <h2>Inscripción</h2>
-            <div class="form-container">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9q4_qxZaFQ2dYo5Bl8LH0wJJxSpM7ZhGJLPHndiJWEUqxnA/viewform?embedded=true" frameborder="0">Cargando…</iframe>
-            </div>
-        </div>
-    </section>
 
+    <section class="banner-contenedor">
+        <div class="slides">
+            <ul>
+                <li><img src="images/imagen1.jpeg" alt="image1"></li>
+                <li><img src="images/Imagen2.jpeg" alt="image2"></li>
+                <li><img  src="images/imagen3.jpeg" alt="image3"></li>
+                <li><img  src="images/imagen4.jpeg" alt="image4"></li>
+                <li><img  src="images/imagen5.jpeg" alt="image5"></li>
+                <li><img  src="images/imagen6.jpeg" alt="image6"></li>
+            </ul>
+        
+    </div>
+</section>
     <section id="sobre-nosotros" class="sobre-nosotros">
         <div class="sobre-nosotros container">
             <div class="sobre-nosotros-content">
-                <img src="images/photography-high-resolution-logo-transparent.png" class="sobre-nosotros-imagen" alt="Sobre nosotros">
+                <img src="images/logoNegro.png" class="sobre-nosotros-imagen" alt="Sobre nosotros">
                 <div class="sobre-nosotros-texto">
-                    <h2>Sobre nosotros</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, velit sit amet dictum pretium, risus elit ullamcorper arcu, vitae cursus massa mi eu eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce interdum justo nec mi faucibus, id auctor lectus placerat.</p>
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>En nuestro Concurso de Fotografía gratuito,nos dedicamos a descubrir y apoyar nuevos talentos en Colombia. Creemos firmemente en el poder del arte como medio de expresión y transformación, y es por eso que nos esforzamos por proporcionar una plataforma accesible para todos los fotógrafos emergentes. Nuestro objetivo es fomentar la creatividad, la innovación y el desarrollo artístico, brindando a los participantes la oportunidad de mostrar su trabajo, aprender y crecer en su carrera. Acompáñanos en esta emocionante aventura y sé parte de una comunidad que celebra y apoya el arte en todas sus formas.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="VideoPromocional" class="VideoPromocional">
+        <div class="container">
+            <h2>CONCURSO DE FOTOGRAFIA-2024</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YAevAQp-Xsc?si=34EpsRAusC7Uam0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="Galeria">
+        <div class="container-galeria">
+            <h2>GALERÍA</h2>
+            <div class="image-container">
+                <div class="image"><img src="images/imagen1.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen2.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen3.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen4.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen5.jpeg" alt=""></div>
+                <div class="image"><img src="images/imagen6.jpeg" alt=""></div>
+            </div>
+            <div class="popup-images">
+                <span>&times;</span>
+                <img src="images/imagen1.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <script src="Javascript/galeria.js">  
+    </script>
+
+   
+    <section id="frase" class="frase">
+        <div class="Frase-container">
+            <h2>"Las mejores imágenes son aquellas que retienen su fuerza e impacto a través de los años, a pesar del número de veces que son vistas"-Anne Geddes</h2>
+        </div>
+    </section>
+    <div class="titulo-regla">
+        <h2>REGLAS</h2>
+    </div>
+
+    <section id="reglas" class="reglas-section">
+        <div class="regla">
+
+          <div class="circle">1</div>
+          <h3>Originalidad</h3>
+          <p>Las fotografías deben ser originales y tomadas por el participante, sin modificaciones que alteren la realidad ni infrinjan derechos de autor.</p>
+        </div>
+        <div class="regla">
+          <div class="circle">2</div>
+          <h3>Tematica</h3>
+          <p>Las fotografías deben ajustarse al tema del concurso especificado.</p>
+        </div>
+        <div class="regla">
+          <div class="circle">3</div>
+          <h3>Formato</h3>
+          <p>Las imágenes deben enviarse en formato JPEG o PNG.</p>
+        </div>
+        <div class="regla">
+          <div class="circle">4</div>
+          <h3>Fecha de entrega</h3>
+          <p> Las fotografías deben ser recibidas antes de la fecha límite, 8/31/2024.</p>
+        </div>
+        <div class="regla">
+          <div class="circle">5</div>
+          <h3>Derechos de uso</h3>
+          <p>Los participantes conceden al organizador el derecho no exclusivo de utilizar las fotografías con fines promocionales, acreditando al autor.</p>
+        </div>
+        <div class="regla">
+          <div class="circle">6</div>
+          <h3>Numero de envíos</h3>
+          <p>Cada participante puede enviar un máximo de una fotografías al concurso.</p>
+        </div>
+      </section>
+      
+
+    
+    <section id="inscripcion" class="inscripcion">
+        <div class="inscripcion container">
+            <h2>INSCRIPCIÓN</h2>
+            <div class="form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9q4_qxZaFQ2dYo5Bl8LH0wJJxSpM7ZhGJLPHndiJWEUqxnA/viewform?embedded=true" frameborder="0">Cargando…</iframe>
+            </div>
+        </div>
+    </section>
+    <div class="whatsapp-button">
+        <a href="https://wa.me/3206771483">
+            <img src="images/social.png" alt="">
+        </a>
+    </div>
+
+  
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
@@ -65,6 +159,37 @@
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="Javascript/menu.js"></script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h3>Marcas aliadas</h3>
+                <div class="footer-logos">
+                    <img src="images/Canon.png" alt="Logo Canon">
+                    <img src="images/sony.png" alt="Logo Sony">
+                    <img src="images/kodak.png" alt="Logo Kodak">
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>Ubicación</h3>
+            <div class="footer-location">
+                    <img src="images/Museo.png" alt="Museo Entomológico Francisco Luis Gallego">
+            </div>
+            </div>
+            <div class="footer-item">
+                <h3>Contacto</h3>
+                <div class="footer-contact">
+                    <a><img src="images/correo.png" alt="Correo"></a>
+                    <a><img src="images/whatsapp.png" alt="Whatsapp"></a>
+                    <a><img src="images/facebook.png" alt="Facebook"></a>
+                    <p>Teléfono: (+57 4) 4309000</p>
+                    <p>Correo: comunicafc_med@unal.edu.co</p>
+                    <p>Dirección: Cra 65 A N 59A-110 Edif. 21 Medellin</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
