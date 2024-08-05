@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menu-toggle');
     const navbar = document.querySelector('.navbar');
+    const menu = document.querySelector('.menu');
 
     menuToggle.addEventListener('change', function() {
         if (menuToggle.checked) {
